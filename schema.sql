@@ -1,0 +1,9 @@
+CREATE DATABASE crud_python;
+
+USE crud_python;
+
+CREATE TABLE produtos (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(45) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL
+);
